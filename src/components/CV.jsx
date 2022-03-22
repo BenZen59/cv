@@ -12,7 +12,7 @@ export default function CV() {
       </header>
 
       <nav>
-        <img src={photo} alt='photo du cv' className='photoCV' />
+        <img src={photo} alt='cv' className='photoCV' />
         <div className='imagePerso'>
           <a href='https://github.com/BenZen59'>
             <div className='lienPerso'>
