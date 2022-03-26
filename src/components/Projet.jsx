@@ -96,7 +96,18 @@ export default function Projet() {
         <li class='work'>
           <input class='radio' id='work4' name='works' type='radio' checked />
           <div class='relative'>
-            <label for='work4'>Site CV</label>
+            <label for='work4'>Site cinéma Japonais</label>
+
+            <span class='circle'></span>
+          </div>
+          <div class='content'>
+            <p>Projet perso en React sur le cinéma japonais en général</p>
+          </div>
+        </li>
+        <li class='work'>
+          <input class='radio' id='work5' name='works' type='radio' checked />
+          <div class='relative'>
+            <label for='work5'>Site CV</label>
 
             <span class='circle'></span>
           </div>

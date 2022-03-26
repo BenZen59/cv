@@ -88,6 +88,7 @@
     margin-top: -17px;
   }
   p {
+    margin-top: 50px;
     max-height: 0;
     color: transparent;
     text-align: justify;
@@ -139,4 +140,59 @@ label {
 .lienProjet:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+@media screen and (max-width: 926px) {
+  .content {
+    max-height: 30px;
+    padding: 50px 20px 0;
+    border-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 0.5em;
+    position: relative;
+    &:before,
+    &:after {
+      content: '';
+      width: 0;
+      height: 0;
+      border: solid transparent;
+      position: absolute;
+      pointer-events: none;
+      right: 100%;
+    }
+    &:before {
+      border-right-color: inherit;
+      border-width: 20px;
+      top: 50%;
+      margin-top: -20px;
+    }
+    &:after {
+      border-right-color: $color1;
+      border-width: 17px;
+      top: 50%;
+      margin-top: -17px;
+    }
+    p {
+      max-height: 0;
+      font-size: 12px;
+      margin-bottom: 5px;
+      color: transparent;
+      text-align: justify;
+      word-break: break-word;
+      hyphens: auto;
+      overflow: hidden;
+    }
+  }
+  label {
+    font-size: 12px;
+    position: absolute;
+    z-index: 100;
+    top: px;
+    -webkit-transition: -webkit-transform 0.2s linear;
+  }
+
+  .date {
+    font-size: 0.75em;
+  }
 }

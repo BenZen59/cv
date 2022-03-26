@@ -9,6 +9,7 @@ export default function CV() {
     <>
       <header>
         <h1>ZENONE Benoît</h1>
+        "RECHERCHE D'UN STAGE EN DÉVELOPPEMENT WEB FULL STACK"
       </header>
 
       <nav>
@@ -26,12 +27,8 @@ export default function CV() {
             </div>
           </a>
         </div>
-        <span className='github'>GitHub</span> Linkedin
-        <p>
-          <button className='projet'>
-            <NavLink to='/projet'>Mes projets</NavLink>
-          </button>
-        </p>
+        <span className='github'>GitHub</span>{' '}
+        <span className='linkedin'>Linkedin</span>
         <p>
           <h1>INTRODUCTION</h1>
         </p>
@@ -97,6 +94,21 @@ export default function CV() {
       </nav>
 
       <section>
+        <h1>Projets</h1>
+        <p>
+          <div className='boldSection'>- WildMarket</div>
+          <div className='boldSection'>- KeepN</div>
+          <div className='boldSection'>- Projet Client Ophtalmology</div>
+          <div className='boldSection'>
+            - Site cinéma Japonais - Projet perso
+          </div>
+          <div className='boldSection'>- Site CV - Projet perso</div>
+        </p>
+        <p>
+          <button className='projet'>
+            <NavLink to='/projet'>En savoir plus</NavLink>
+          </button>
+        </p>
         <h1>Expériences profesionnelles</h1>
         <p>
           <div className='boldSection'>
@@ -141,15 +153,6 @@ export default function CV() {
             Juin 2012 Baccalauréat Sti (sciences Et Techniques De L’ingénieur)
           </div>{' '}
           Spécialité Génie Électronique, Lycée Léonard De Vinci, Calais (62)
-        </p>
-        <h1>Expériences diverses</h1>
-        <p>
-          Écriture D'un Dossier Pour Le Bp Libraire Sur Le Sujet
-          Suivant"promouvoir La Culture Japonaise À Travers La Librairie"
-          <br /> <br />
-          Option Cinéma Au Lycée Pour Le Bac, Avec La Réalisation D’un
-          Court-métrage Et Un Passage À L’oral
-          <br /> <br />{' '}
         </p>
       </section>
     </>
