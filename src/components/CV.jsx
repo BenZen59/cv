@@ -9,8 +9,9 @@ export default function CV() {
     <>
       <header>
         <h1>ZENONE Benoît</h1>
-        "RECHERCHE D'UN STAGE EN <br />
-        DÉVELOPPEMENT WEB FULL STACK"
+        "RECHERCHE D'UN STAGE <br />
+        EN DÉVELOPPEMENT WEB
+        <br /> FULL STACK"
       </header>
 
       <nav>
