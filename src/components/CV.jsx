@@ -9,9 +9,7 @@ export default function CV() {
     <>
       <header>
         <h1>ZENONE Benoît</h1>
-        "RECHERCHE D'UN STAGE <br />
-        EN DÉVELOPPEMENT WEB
-        <br /> FULL STACK"
+        "RECHERCHE D'UN STAGE EN DÉVELOPPEMENT WEB FULL STACK"
       </header>
 
       <nav>
@@ -37,7 +35,8 @@ export default function CV() {
         <p>
           Bonjour, Benoît 28 ans,
           <br />
-          actuellement en recherche de stage en développement web
+          actuellement en recherche de <br />
+          stage en développement web
         </p>
         <p>
           <h1>DOMAINES DE COMPETENCES</h1>
