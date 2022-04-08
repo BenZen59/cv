@@ -46,7 +46,7 @@ export default function Projet() {
               <br />
               <br />
               <a
-                href='https://github.com/WildCodeSchool/p2-g2-sept21-lille-react-Videotheque'
+                href='https://neon-duckanoo-399332.netlify.app/'
                 className='lienProjet'
               >
                 Lien du projet
@@ -97,11 +97,20 @@ export default function Projet() {
           <input class='radio' id='work4' name='works' type='radio' checked />
           <div class='relative'>
             <label for='work4'>Site cinéma Japonais</label>
-
             <span class='circle'></span>
           </div>
           <div class='content'>
-            <p>Projet perso en React sur le cinéma japonais en général</p>
+            <p>
+              Projet perso en React sur le cinéma japonais en général
+              <br />
+              <br />
+              <a
+                href='https://mellifluous-cupcake-1f7075.netlify.app/'
+                className='lienProjet'
+              >
+                Lien du projet
+              </a>
+            </p>
           </div>
         </li>
         <li class='work'>
