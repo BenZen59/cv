@@ -37,8 +37,7 @@ export default function CV() {
         <p>
           Bonjour, Benoît 28 ans,
           <br />
-          actuellement en recherche de <br />
-          stage en développement web
+          actuellement en recherche de stage en développement web
         </p>
         <p>
           <h1>DOMAINES DE COMPETENCES</h1>
