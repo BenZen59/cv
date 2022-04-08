@@ -161,6 +161,11 @@ button:hover > a {
 }
 
 @media screen and (max-width: 926px) {
+  button {
+    height: 111px;
+    width: 168px;
+  }
+
   header {
     width: 61%;
     margin: auto;
