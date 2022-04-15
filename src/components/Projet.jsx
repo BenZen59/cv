@@ -96,7 +96,7 @@ export default function Projet() {
         <li class='work'>
           <input class='radio' id='work4' name='works' type='radio' checked />
           <div class='relative'>
-            <label for='work4'>Site cinéma Japonais</label>
+            <label for='work4'>Site cinéma Japonais (WIP)</label>
             <span class='circle'></span>
           </div>
           <div class='content'>
