@@ -8,10 +8,12 @@ export default function CV() {
   return (
     <>
       <header>
-        <h1>ZENONE Benoît</h1>
-        "RECHERCHE D'UN STAGE <br />
-        EN DÉVELOPPEMENT WEB
-        <br /> FULL STACK"
+        <h1>Benoît ZENONE</h1>
+        "RECHERCHE D'UN STAGE
+        <br />
+        OU/ET UNE ALTERNANCE EN
+        <br />
+        DÉVELOPPEMENT WEB FULL STACK"
       </header>
 
       <nav>
@@ -35,16 +37,18 @@ export default function CV() {
           <h1>INTRODUCTION</h1>
         </p>
         <p>
-          Bonjour, Benoît 28 ans,
+          Bonjour, Benoît 28 ans,, je suis
           <br />
-          actuellement en recherche de <br />
-          stage en développement web
+          actuellement à la recherche d'une
+          <br />
+          alternance pour une formation de 1 an
+          <br />à la Wild Code School
         </p>
         <p>
           <h1>DOMAINES DE COMPETENCES</h1>
         </p>
         <p>
-          <h2>Informatique</h2>
+          <h2>Hard Skills</h2>
         </p>
         <p>
           Git/GitHub
@@ -60,6 +64,20 @@ export default function CV() {
           Express
         </p>
         <p>
+          <h2>Soft Skills</h2>
+        </p>
+        <p>
+          Autonomie
+          <br />
+          Flexibilité
+          <br />
+          Esprit d'équipe
+          <br />
+          Curieux
+          <br />
+          Passionné
+        </p>
+        <p>
           <h2>Langues</h2>
         </p>
         <p>
@@ -71,9 +89,11 @@ export default function CV() {
           <h1>COORDONNEES</h1>
         </p>
         <p>
-          Téléphone: 07 81 70 95 11
+          07 81 70 95 11
           <br />
-          Email: benoit.zenone@gmail.com
+          benoit.zenone@gmail.com
+          <br />
+          LILLE, 59000
         </p>
         <p>
           <h1>CENTRES D’INTÉRÊTS</h1>
@@ -96,65 +116,87 @@ export default function CV() {
       </nav>
 
       <section>
-        <h1>Projets</h1>
+        <h1>PROJETS DÉVELOPPEMENT WEB</h1>
         <p>
-          <div className='boldSection'>- WildMarket</div>
-          <div className='boldSection'>- KeepN</div>
-          <div className='boldSection'>- Projet Client Ophtalmology</div>
-          <div className='boldSection'>
-            - Site cinéma Japonais - Projet perso
-          </div>
-          <div className='boldSection'>- Site CV - Projet perso</div>
+          <span className='boldSection'>Portfolio</span>
+          , version CV du site avec une page projet également
+          <br />
+          <br />
+          <span className='boldSection'>Site sur le cinéma Japonais, </span>
+          projet perso
+          <br />
+          <br />
+          <span className='boldSection'>WildMarket,</span> conception d'un site
+          e-commerce en HTML/CSS
+          <br />
+          <br />
+          <span className='boldSection'>KeepN,</span> application web pour
+          rechercher des films et créer une Watch List, utilisation de l'api
+          TMDB
+          <br />
+          <br />
+          <span className='boldSection'>Site vitrine</span>, refaire un site à
+          partir de zéro pour un chirurgien ophtalmologue, implémentation d'un
+          back office également
+          <br />
+          <br />
         </p>
         <p>
           <button className='projet'>
             <NavLink to='/projet'>En savoir plus</NavLink>
           </button>
         </p>
-        <h1>Expériences profesionnelles</h1>
+        <h1>EXPÉRIENCES PROFESSIONNELLES</h1>
         <p>
-          <div className='boldSection'>
+          <span className='boldSection'>
             Novembre 2019 - Janvier 2020 août-septembre 2020
-          </div>{' '}
-          Cdd à la librairie Page & Plume, Limoges (87)
+          </span>
+          <br /> Cdd à la librairie Page & Plume, Limoges (87)
           <br />
-          <div className='boldSection'>Juillet 2017 - Juillet 2019</div>{' '}
-          Apprentissage en librairie pour l'obtention d'un bp libraire à la
-          libraire Page & Plume, Limoges (87)
           <br />
-          <div className='boldSection'>Avril – Juin 2015</div> Stage à
-          association culture & liberté à Arras,édition d’un site wordpress et
-          mise en place de plugins
+          <span className='boldSection'>Juillet 2017 - Juillet 2019</span>
+          <br /> Apprentissage en librairie pour l'obtention d'un bp libraire à
+          la libraire Page & Plume, Limoges (87)
           <br />
-          <div className='boldSection'> Septembre – Novembre 2014</div> Stage à
-          inf’audit.com, magasin spécialisé en réparation informatique, Calais
-          (62)
         </p>
-        <h1>Formation</h1>
+        <h1>FORMATION</h1>
         <p>
-          <div className='boldSection'>
+          <span className='boldSection'>
+            Septembre 2022 - Septembre 2023 Formation alternance
+          </span>
+          <br /> À la Wild Code School
+          <br />
+          <br />
+          <span className='boldSection'>
             Septembre 2021 - Février 2022 Formation web
-          </div>
+          </span>
+          <br />
           À la Wild Code School de Lille
           <br />
-          <div className='boldSection'>2016 - 2019 Diplôme Bp Libraire</div> À
-          L'infl (institut National De Formationde La Librairie)
           <br />
-          <div className='boldSection'>
+          <span className='boldSection'>2016 - 2019 Diplôme Bp Libraire</span>
+          <br /> À L'infl (institut National De Formationde La Librairie)
+          <br />
+          <br />
+          <span className='boldSection'>
             2016 Séjour De 6 Mois En Angleterre
-          </div>{' '}
-          À L’école Ses À Folkestone
+          </span>
+          <br /> À L’école Ses À Folkestone
           <br />
-          <div className='boldSection'>
+          <br />
+          <span className='boldSection'>
             {' '}
             2015 Diplôme D’analyste-programmeur Niveau Iii
-          </div>
+          </span>
+          <br />
           De L’école Exia.cesi D’arras (62) Bac +2
           <br />
-          <div className='boldSection'>
+          <br />
+          <span className='boldSection'>
             Juin 2012 Baccalauréat Sti (sciences Et Techniques De L’ingénieur)
-          </div>{' '}
-          Spécialité Génie Électronique, Lycée Léonard De Vinci, Calais (62)
+          </span>
+          <br /> Spécialité Génie Électronique, Lycée Léonard De Vinci, Calais
+          (62)
         </p>
       </section>
     </>

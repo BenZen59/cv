@@ -40,7 +40,7 @@ nav {
   background-color: $color2;
   color: white;
   width: 50vh;
-  height: 258%;
+  height: 191%;
   top: 0;
   text-align: center;
   position: absolute;
@@ -58,6 +58,7 @@ nav h1 {
 nav h2 {
   color: $color3;
   padding: 10px;
+  font-size: 20px;
 }
 
 .navImg {
@@ -169,7 +170,7 @@ button:hover > a {
   header {
     width: 61%;
     margin: auto;
-    padding-left: 37%;
+    padding-left: 45%;
     margin-top: 50px;
     font-size: 14px;
     margin-top: 20px;
@@ -187,7 +188,7 @@ button:hover > a {
 
   nav {
     width: 42%;
-    height: 354%;
+    height: 286%;
     bottom: -100%;
     font-size: 13px;
   }
