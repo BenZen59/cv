@@ -19,15 +19,14 @@ export default function CV() {
       <nav>
         <img src={photo} alt='cv' className='photoCV' />
         <div className='imagePerso'>
-          <a href='https://github.com/BenZen59'>
-            <div className='lienPerso'>
-              <img src={github} alt='lien github' className='navImg' />
-            </div>
-          </a>
-
           <a href='https://www.linkedin.com/in/beno%C3%AEt-zenone-7763aab1/'>
             <div className='lienPerso'>
               <img src={linkedin} alt='lien linkedin' className='navImg' />
+            </div>
+          </a>
+          <a href='https://github.com/BenZen59'>
+            <div className='lienPerso'>
+              <img src={github} alt='lien github' className='navImg' />
             </div>
           </a>
         </div>
