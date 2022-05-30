@@ -13,7 +13,7 @@ export default function CV() {
         <br />
         OU/ET UNE ALTERNANCE EN
         <br />
-        DÉVELOPPEMENT WEB FULL STACK"
+        DÉVELOPPEMENT WEB FULLSTACK"
       </header>
 
       <nav>
