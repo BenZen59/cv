@@ -140,6 +140,10 @@ export default function CV() {
           back office également
           <br />
           <br />
+          <span className='boldSection'>CartFood</span>, système de commande
+          avec un panier
+          <br />
+          <br />
         </p>
         <p>
           <button className='projet'>

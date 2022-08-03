@@ -124,6 +124,27 @@ export default function Projet() {
             <p>Mon CV en version web</p>
           </div>
         </li>
+        <li class='work'>
+          <input class='radio' id='work6' name='works' type='radio' checked />
+          <div class='relative'>
+            <label for='work6'>CartFood</label>
+
+            <span class='circle'></span>
+          </div>
+          <div class='content'>
+            <p>
+              système de commande avec un panier
+              <br />
+              <br />
+              <a
+                href='https://github.com/BenZen59/CartFood'
+                className='lienProjet'
+              >
+                Lien du projet
+              </a>
+            </p>
+          </div>
+        </li>
       </ul>
     </div>
   );
