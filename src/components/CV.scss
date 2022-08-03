@@ -135,7 +135,7 @@ section h1 {
     }
     &:hover {
       background: $color3;
-      color: black;
+      color: $color2;
       transform: translate(0, 0.25em);
       &::before {
         box-shadow: 0 0 0 2px $color6;
