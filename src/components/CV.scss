@@ -96,7 +96,7 @@ section h1 {
   margin-right: 60px;
 }
 
-button {
+.projetcv {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -106,7 +106,7 @@ button {
   text-decoration: none;
   font-size: inherit;
   font-family: inherit;
-  &.projet {
+  &.projetcv {
     font-weight: 600;
     color: $color1;
     text-transform: uppercase;
@@ -135,6 +135,7 @@ button {
     }
     &:hover {
       background: $color3;
+      color: black;
       transform: translate(0, 0.25em);
       &::before {
         box-shadow: 0 0 0 2px $color6;
@@ -155,6 +156,8 @@ button {
 button > a {
   text-decoration: none;
   color: $color1;
+  border: 1px red solid;
+  padding: 25px;
 }
 
 button:hover > a {
